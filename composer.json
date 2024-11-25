@@ -1,19 +1,22 @@
 {
-    "name": "hypervix/execldateconverter",
-    "description": "Excel Date Converter is a PHP utility package for handling and converting Excel-style date values as well as standard date formats. This package supports multiple date formats, including timestamps, and provides functionality to parse, convert, and format dates easily.",
+    "name": "hypervix/execl-date-converter",
+    "description": "Excel Date Converter is a PHP utility package for handling and converting Excel-style date values as well as standard date formats.",
     "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "ext-zip": "*",
+        "phpunit/phpunit": "9.5"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Hypervix\\Execldateconverter\\": "src/"
+            "Hypervix\\ExeclDateConverter\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Jayant Bhunia",
-            "email": "bhuniajayant@gmail.com"
+            "name": "yes"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }
